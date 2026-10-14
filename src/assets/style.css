@@ -99,21 +99,21 @@ nav p:hover {
     margin-right: 5px;
 }
 
-.main .education {
+.main .grid {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2);
-    gap: 25px
+    gap: 25px;
 }
 
-.main .education .course {
+.main .grid .container {
     display: flex;
     flex-direction: column;
     border: 2px solid white;
     padding: 10px;
 }
 
-.main .education a {
+.main .grid a {
     text-decoration: none;
     color: gray;
     border: 2px solid gray;
